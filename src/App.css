@@ -1,0 +1,46 @@
+.container {
+  background-color: aquamarine;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: centre;
+  font-family: "Odibee Sans", cursive;
+}
+
+.box {
+  width: 25vw;
+  margin: auto;
+  height: 58vh;
+  background-color: cadetblue;
+  font-family: "Odibee Sans", cursive;
+  border: 1px solid burlywood;
+  border-radius: 14px;
+}
+
+.inputBox{
+  text-align: center;
+  padding-top: 5px;
+}
+.search{
+  background: antiquewhite;
+  height: 2em;
+  border: 1px solid #b5a8a8;
+  border-radius: 11px;
+  padding: 11px;
+
+}
+
+.bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.notFound{
+  text-align: center;
+  font-size: 37px;
+}
+
